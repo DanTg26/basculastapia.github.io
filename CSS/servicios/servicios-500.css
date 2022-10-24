@@ -1,0 +1,205 @@
+/* apartir de 800 */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container-nav{
+    width: 100%;
+    height:50px;
+    
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+li a {
+    list-style: none;
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-nav{
+    width: 50px;
+    height: 35px;
+   /*  background-color: aqua; */
+}
+
+li img {
+    position:-webkit-sticky;
+    width: 100%;
+    height: 100%;
+    border-radius:5px;
+    margin-bottom: 3%;
+
+}
+
+.nav ul {
+    width: 100%;
+    height: 50px;
+    list-style: none;
+    display:flex;
+    padding:15px;
+    justify-content: space-between;
+    background-color: #192556;
+    border-radius: 10px;
+    margin:auto;  
+}
+
+.nav ul li a:hover{
+    color: #ffea00;
+}
+
+.carrusel{
+    
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    margin:auto;
+}
+
+.img-carrusel{
+    width: 100%;
+    height:100%;  
+}
+
+.nuestros-servicios{
+    width:100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.div-nuestros-servicios{
+    width:100%;
+    height: 45px;
+    background-color: #A90B15;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    color:whitesmoke;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1%;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+    border-radius: 0px;
+}
+
+.container-alquiler{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.texto-alquiler{
+    width: 80%;
+    height: auto;
+    height: auto;
+    background-color: #192556;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    font-size: 2rem;
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto-alquiler p{
+    color: azure;
+    padding: 10px;
+    font-size: 1.6rem;
+    
+}
+
+.img-alquiler{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-alquiler img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #192556;
+}
+
+.container-footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.footer-img{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.footer-img img{
+    width: 40%;
+    height:180px;
+    
+    
+}
+
+.footer-text{
+    width: 80%;
+    font-size: 1.6rem;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-copyright{
+    width: 100%;
+    height: auto;
+    font-size: 1.8rem;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 25px;
+    background-color: #A90B15;
+}
+
+.Footer-nombre-empresa{
+    width: 100%;
+    height: 50px;
+    color:aliceblue;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #A90B15;
+    padding: 10px;
+}

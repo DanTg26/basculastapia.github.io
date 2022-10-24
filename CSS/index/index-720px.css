@@ -1,0 +1,452 @@
+/* a partir de 680px */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container-nav{
+    width: 100%;
+    height:50px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.productos-nav a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    background-color: #192556;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-container{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.logo-container img{
+    width: auto;
+    height: 120px;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 5%;
+  
+}
+
+.logo-container h3{
+    width: 100%;
+    height:auto;
+    font-size: 2.5rem;
+    margin: auto;
+    color: aliceblue;
+    font-family: cursive;
+    display: inline-block;
+}
+
+.ul-nav-bar{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    list-style: none;
+    font-size: 2.2rem;
+    color: white;
+}
+
+.ul-nav-bar li{
+    cursor: pointer;
+}
+
+.ul-nav-bar li:hover{
+   color: rgb(255, 95, 95);
+}
+
+.productos-nav ul{
+   position: absolute;
+   list-style: none;
+   display: none;
+   padding: 2%;
+}
+
+.productos-nav ul li{
+    margin-top: 25%;
+    text-align: left;
+}
+
+.productos-nav:hover ul{
+    background-color: #192556;
+    color: white;
+    display: block;
+    border-bottom-right-radius: 30px;
+}
+
+.servicios-nav ul {
+    display: none;
+    padding: 2%;
+}
+
+.ul-servicios{
+    position: absolute;
+    background-color:#192556;
+    border-bottom-right-radius: 30px;
+    font-size: 2rem;
+}
+
+
+.ul-servicios a{
+    text-decoration: none;
+    text-align:left;
+    display: block;
+    margin-top: 20%;
+    color: white;
+    font-size: 2.5rem;
+   
+}
+
+.ul-servicios a:hover{
+    color: red;
+}
+
+.ul-servicios a li{
+    color: white;
+    
+    
+}
+
+.servicios-nav:hover .ul-servicios {
+    display: block;
+    color: aqua;
+}
+
+.carrusel{
+    
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    margin:auto;
+}
+
+.img-carrusel{
+    width: 100%;
+    height:100%;  
+}
+
+.nuestros-servicios{
+    width:100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.div-nuestros-servicios{
+    width:95%;
+    height: 35px;
+    background-color: #A90B15;
+    border-radius: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    color:whitesmoke;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2%;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+}
+
+.container-cards1{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-bottom: 200px;  
+    margin-bottom: 3%;
+}
+
+
+.cards{
+    background-color: #192556;
+    width: 40%;
+    height: 300px;
+    text-align: center; 
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border: #A90B15 solid 8px;
+}
+
+
+.cotainer-cards-2{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-top: 50px;   
+}
+
+.cards p{
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
+
+.cards h4{
+    color: white;
+    margin-top: 1px;
+    font-size: 2rem;
+}
+
+.cards img{
+    width:80%;
+    height:auto;
+    align-items: center;
+    background-size: contain;
+}
+
+.image-container img{
+    width: 70%;
+    height:150px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.container-algunos-productos{
+    width:95%;
+    height:35px;
+    background-color: #A90B15;
+    margin: auto;
+    margin-top: auto;
+    color: aliceblue;
+    text-align: center;
+    padding: 2%;
+    font-size: 2rem;
+    border-radius: 0px;
+    margin-bottom: 25px;
+}
+
+.algunos-productos{
+    margin-top: 3%;
+}
+
+.card-nuestros-productos{
+    background-color: white;
+    width: 40%;
+    height: auto;
+    text-align: center; 
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: #192556 solid 10px;  
+}
+
+.cards{ 
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.img-card {
+    width: 100%;
+    height: 200px;
+}
+
+.img-card img {
+    width: 80%;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.button-cards-productos button{
+    width:55%;
+    height:30px;
+    border:none ;
+    color: aliceblue;
+    background-color: #A90B15;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.button-cards-productos button:hover{
+    color: #192556;
+    background-color: #d9000e;
+    box-shadow: 2px 2px 8px gray;
+}
+
+.container-cards-productos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.camioneras{
+    width:100%;
+    height:auto; 
+}
+
+.container-camioneras{
+    width: 100%;
+    height: 300px;
+    background-color:#192556;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cotiza-con-nosotros{
+    width: 25%;
+    margin-left: 30px;
+}
+
+.cotiza-con-nosotros h3{
+    font-size:3rem;
+    color: azure;
+    margin-bottom: 40px;
+}
+
+.cotiza-con-nosotros button{
+    width: 150px;
+    height:50px;
+    background-color: #A90B15;
+    color: azure;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cotiza-con-nosotros button:hover{
+    background-color: #e50b1a;
+    box-shadow: 2px 2px 8px gray;
+}
+
+.container-card-camioneras{
+    width: 20%;
+    height: 200px;
+    background-color: white;
+    margin:auto;
+    border-radius: 10px; 
+}
+
+.container-card-camioneras img{
+    width:80%;
+    height:140px;
+    margin-left:10%;
+    margin-right: 10%;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.container-card-camioneras button{
+    width: 50%;
+    height: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1px;
+    background-color: #192556;
+    border:none;
+    border-radius: 10px;
+    color: azure;
+    cursor:pointer;
+}
+
+.container-card-camioneras button:hover{
+    background-color: #2140b9;
+    box-shadow: 2px 2px 8px gray;
+}
+
+.container-trabajamos-marcas{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+
+.container-trabajamos-marcas-img img{
+    width: 80%;
+    height: 280px;
+}
+
+footer{
+    width: 100%;
+    height: 370px;
+    background-color: #192556;
+}
+
+.container-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-img{
+    width: 45%;
+}
+
+.footer-img img{
+    width: 320px;
+    height:220px;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+
+.footer-text{
+    width: 45%;
+    font-size: 2rem;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.footer-copyright{
+    width: 100%;
+    height: 50px;
+    font-size: 2rem;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 25px;
+    background-color: #A90B15;
+}
+
+.Footer-nombre-empresa{
+    width: 100%;
+    height: 50px;
+    color:aliceblue;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #A90B15;
+    padding: 10px;
+}
+
+
+
+
+    

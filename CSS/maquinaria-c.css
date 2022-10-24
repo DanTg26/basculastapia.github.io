@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.productos-nav a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+}
+
+nav{
+    width: 100%;
+    height: 150px;
+    background-color: #192556;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-container{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-container img{
+    width: auto;
+    height: 120px;
+    margin: auto;
+    border-radius: 30px;
+  
+}
+
+.logo-container h3{
+    width: 60%;
+    height:auto;
+    font-size: 3.5rem;
+    margin: auto;
+    color: aliceblue;
+    font-family: cursive;
+}
+
+.ul-nav-bar{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    list-style: none;
+    font-size: 3rem;
+    color: white;
+}
+
+.ul-nav-bar li{
+    cursor: pointer;
+}
+
+.ul-nav-bar li:hover{
+   color: rgb(255, 95, 95);
+}
+
+.productos-nav ul{
+   position: absolute;
+   list-style: none;
+   display: none;
+   padding: 2%;
+}
+
+.productos-nav ul li{
+    margin-top: 25%;
+    text-align: left;
+}
+
+.productos-nav:hover ul{
+    background-color: #192556;
+    color: white;
+    display: block;
+    border-bottom-right-radius: 30px;
+}
+
+.servicios-nav ul {
+    display: none;
+    padding: 2%;
+}
+
+.ul-servicios{
+    position: absolute;
+    background-color:#192556;
+    border-bottom-right-radius: 30px;
+}
+
+.ul-servicios a{
+    text-decoration: none;
+    text-align:left;
+    display: block;
+    margin-top: 20%;
+    color: white;
+    font-size: 2.5rem;
+   
+}
+
+.ul-servicios a:hover{
+    color: red;
+}
+
+.ul-servicios a li{
+    color: white;
+    
+    
+}
+
+.servicios-nav:hover .ul-servicios {
+    display: block;
+    color: aqua;
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+.container-cards1{
+    width:100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-bottom: 200px;  
+}
+
+.container-algunos-productos{
+    width:100%;
+    height:80px;
+    background-color: #A90B15;
+    margin: auto;
+    margin-top: 3%;
+    color: aliceblue;
+    text-align: center;
+    padding: 2%;
+    font-size: 2.5rem;
+    border-radius: 0px;
+    margin-bottom: 25px;
+}
+
+.card-nuestros-productos{
+    background-color: white;
+    width: 30%;
+    height: auto;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5%;
+    border-radius: 15px;
+    border: #192556 solid 10px; 
+    text-align: center; 
+    min-width: 320px;
+    max-width: 400px;
+}
+
+.img-card {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.img-card img {
+    width: 100%;
+    height: 300px;
+    margin-top: 3%px;
+    margin-bottom: 3%;
+}
+
+.marca-modelo-rhino{
+    background-color: #ffea00;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.button-cards-productos h3{
+    width:55%;
+    height:30px;
+    text-align: center;
+    border:none ;
+    color: aliceblue;
+    background-color: #A90B15;
+    margin:auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 7px;
+    
+}
+
+.button-whatsapp{
+    width: 75%;
+    height:auto;
+    background-color: #00bb2d;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.button-whatsapp h3{
+    color: aliceblue;
+}
+
+.button-cards-productos h3:hover{
+    color: #192556;
+    background-color: #d9000e;
+    box-shadow: 2px 2px 8px gray;
+}
+
+.container-cards-productos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 3%;
+    justify-content: space-between;
+}
+
+footer{
+    width: 100%;
+    height: 370px;
+    background-color: #192556;
+}
+
+.container-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-img{
+    width: 45%;
+}
+
+.footer-img img{
+    width: 300px;
+    height:250px;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+
+.footer-text{
+    width: 45%;
+    font-size: 2rem;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-copyright{
+    width: 100%;
+    height: 50px;
+    font-size: 2rem;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 25px;
+    background-color: #A90B15;
+}
+
+.Footer-nombre-empresa{
+    width: 100%;
+    height: 50px;
+    color:aliceblue;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #A90B15;
+    padding: 10px;
+}
+
+.button-whatsapp:hover{
+    background-color: #107026;
+    box-shadow: 2px 2px 8px gray;
+}
+
+
+
+
+    
