@@ -10,61 +10,129 @@ html{
     font-size: 62.5%;
 }
 
-.container-nav{
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.productos-nav a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+}
+
+nav{
     width: 100%;
-    height:50px;
+    height: auto;
+    background-color: #192556;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-container{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.logo-container img{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  
+}
+
+.logo-container h3{
+    display: none;
+}
+
+.ul-nav-bar{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    list-style: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.ul-nav-bar li{
+    cursor: pointer;
+}
+
+.ul-nav-bar li:hover{
+   color: rgb(255, 95, 95);
+}
+
+.productos-nav ul{
+   position: absolute;
+   list-style: none;
+   display: none;
+   padding: 2%;
+}
+
+.productos-nav ul a{
+    font-size: 1.5rem;
+}
+
+.productos-nav ul li{
+    margin-top: 25%;
+    text-align: left;
+}
+
+.productos-nav:hover ul{
+    background-color: #192556;
+    color: white;
+    display: block;
+    border-bottom-right-radius: 30px;
+}
+
+.servicios-nav ul {
+    display: none;
+    padding: 2%;
+}
+
+.ul-servicios {
+    position: absolute;
+    background-color:#192556;
+    border-bottom-right-radius: 30px;
+    font-size: 1.5rem;
+}
+
+
+.ul-servicios a{
+    text-decoration: none;
+    text-align:left;
+    display: block;
+    margin-top: 20%;
+    color: white;
+    font-size: 1.5rem;
+   
+}
+
+.ul-servicios a:hover{
+    color: red;
+}
+
+.ul-servicios a li{
+    color: white;
+    
     
 }
 
-.nav{
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: center;
+.servicios-nav:hover .ul-servicios {
+    display: block;
+    color: aqua;
 }
-
-li a {
-    list-style: none;
-    text-decoration: none;
-    color:white;
-    cursor: pointer;
-    font-size: 1rem;
-    font-family: sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.logo-nav{
-    width: 50px;
-    height: 35px;
-   /*  background-color: aqua; */
-}
-
-li img {
-    position:-webkit-sticky;
-    width: 100%;
-    height: 100%;
-    border-radius:5px;
-    margin-bottom: 3%;
-
-}
-
-.nav ul {
-    width: 100%;
-    height: 50px;
-    list-style: none;
-    display:flex;
-    padding:15px;
-    justify-content: space-between;
-    background-color: #192556;
-    border-radius: 10px;
-    margin:auto;  
-}
-
-.nav ul li a:hover{
-    color: #ffea00;
-}
-
 .carrusel{
     
     width: 100%;
